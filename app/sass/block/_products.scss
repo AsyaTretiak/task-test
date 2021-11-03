@@ -1,0 +1,84 @@
+.products_indent {
+    padding: 40px 0 82px;
+}
+.products__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: $black;
+}
+.products__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
+.products__box_indent {
+    padding-top: 15px;
+}
+.products-box__item {
+    max-width: 350px;
+    height: 474px;
+    border: 3px solid $border;
+    display: grid;
+    align-content: end;
+}
+.products-box-item__frame {
+    padding: 0 27px 23px;
+}
+.products-box__img1 {
+    background-image: url("../img/pr-pg img1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img2 {
+    background-image: url("../img/pr-pg img2.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img3 {
+    background-image: url("../img/pr-pg img3.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img4 {
+    background-image: url("../img/pr-pg img4.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img5 {
+    background-image: url("../img/pr-pg img5.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img6 {
+    background-image: url("../img/pr-pg img6.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img7 {
+    background-image: url("../img/pr-pg img7.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}
+.products-box__img8 {
+    background-image: url("../img/pr-pg img8.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 350px 362px;
+    object-fit: cover;
+}

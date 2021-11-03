@@ -1,0 +1,37 @@
+.js-main-slide {
+    position: relative;
+}
+.slick-initialized,
+.slick-slide {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 17px;
+}
+.slick-arrow {
+    position: absolute;
+    top: 44%;
+    z-index: 10;
+    font-size: 0;
+    width: 68px;
+    height: 68px;
+    background: $nav-text;
+    border: 1.7px solid $arrow;
+    border-radius: 50px;
+    box-shadow: 0 3.4px 17px rgba(0, 0, 0, 0.1);
+}
+.slick-arrow.slick-prev {
+    left: -18px;
+    background-image: url("../img/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+.slick-arrow.slick-next {
+    right: -15px;
+    background-image: url("../img/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slick-disabled {
+    opacity: 0;
+}

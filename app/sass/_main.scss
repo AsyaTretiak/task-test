@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: poppins, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+.container {
+    max-width: 1554px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 17px;
+}
+.wrapper {
+    max-width: 1328px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.main-bg {
+    background: $main;
+}
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
